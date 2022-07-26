@@ -63,8 +63,6 @@ my_cur.execute("insert into fruit_load_list values('from streamlit')")
 #dont run anything past here while we troubleshoot
 streamlit.stop()
 
-import pandas
-import request
 import snowflake.connector
 from urlib.error import URLError
 
